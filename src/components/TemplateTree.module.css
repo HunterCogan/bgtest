@@ -1,0 +1,28 @@
+.root {
+  min-width: 300px;
+  max-width: 600px;
+  flex-basis: 50%;
+  padding-left: 16px;
+}
+.app {
+  height: 100%;
+}
+.currentLabel {
+  font-weight: bold;
+  margin-inline-start: 0.5em;
+}
+.treeRoot {
+  height: 100%;
+}
+
+.draggingSource {
+  opacity: 0.3;
+}
+
+.placeholderContainer {
+  position: relative;
+}
+
+.dropTarget {
+  background-color: #e8f0fe;
+}

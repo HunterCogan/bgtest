@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.button {
+  margin: 0 8px !important;
+}
+
+.border {
+  border: 1px solid #b1b1b1 !important;
+}

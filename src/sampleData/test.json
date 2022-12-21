@@ -1,0 +1,272 @@
+[ 
+  {
+    "id": "root",
+    "parent": 0,
+    "droppable": true,
+    "text": "Body",
+    "data": {
+      "fileType": "BODY"
+    }
+  },
+  {
+    "id": "Order Header",
+    "parent": "root",
+    "droppable": true,
+    "text": "Order Header",
+    "data": {
+      "fileType": "RECORD",
+      "TYPE": "Order Header"
+    }
+  },
+  {
+    "id": "RECORD INDICATOR",
+    "parent": "Order Header",
+    "text": "Field: Record Indicator",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Record Indicator",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "RECORD INDICATOR"
+    }
+  },
+  {
+    "id": "INVOICE ID",
+    "parent": "Order Header",
+    "text": "Field: Invoice Id",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Invoice Id",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "INVOICE ID"
+    }
+  },
+  {
+    "id": "Some Number",
+    "parent": "Order Header",
+    "text": "Field: Invoice Id",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Invoice Id",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "Another Invoice Number"
+    }
+  },
+  {
+    "id": "Dummy Field",
+    "parent": "Order Header",
+    "text": "Field: Dummy Field",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 1",
+    "parent": "Order Header",
+    "text": "Field: Dummy Field 1",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 1",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 2",
+    "parent": "Order Header",
+    "text": "Field: Dummy Field 2",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 2",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 3",
+    "parent": "Order Header",
+    "text": "Field: Dummy Field 3",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 3",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 4",
+    "parent": "Order Header",
+    "text": "Field: Dummy Field 4",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 4",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 5",
+    "parent": "Order Header",
+    "text": "Field: Dummy Field 5",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 5",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 6",
+    "parent": "Order Header",
+    "text": "Field: Dummy Field 6",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 6",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 7",
+    "parent": "Order Header",
+    "text": "Field: Dummy Field 7",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 7",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 8",
+    "parent": "Order Header",
+    "text": "Field: Dummy Field 8",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 8",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Detail Record",
+    "parent": "root",
+    "droppable": true,
+    "text": "Detail Record",
+    "data": {
+      "fileType": "RECORD",
+      "TYPE": "Detail Record"
+    }
+  },
+  {
+    "id": "Dummy Field 9",
+    "parent": "Detail Record",
+    "text": "Field: Dummy Field 9",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 9",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 10",
+    "parent": "Detail Record",
+    "text": "Field: Dummy Field 10",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 10",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 11",
+    "parent": "Detail Record",
+    "text": "Field: Dummy Field 11",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 11",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 12",
+    "parent": "Detail Record",
+    "text": "Field: Dummy Field 12",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 12",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "UNNAMED1",
+    "parent": "Detail Record",
+    "droppable": true,
+    "text": "UNNAMED1",
+    "data": {
+      "fileType": "RECORD",
+      "TYPE": "UNNAMED1"
+    }
+  },
+  {
+    "id": "VOLUME ID",
+    "parent": "UNNAMED1",
+    "text": "Field: Volume Id",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Volume Id",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "VOLUME ID"
+    }
+  },
+  {
+    "id": "VOLUME NAME",
+    "parent": "UNNAMED1",
+    "text": "Field: Volume Name",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Volume Name",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "VOLUME NAME"
+    }
+  },
+  {
+    "id": "Dummy Field 14",
+    "parent": "UNNAMED1",
+    "text": "Field: Dummy Field 14",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 14",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 15",
+    "parent": "UNNAMED1",
+    "text": "Field: Dummy Field 15",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 15",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  },
+  {
+    "id": "Dummy Field 16",
+    "parent": "UNNAMED1",
+    "text": "Field: Dummy Field 16",
+    "data": {
+      "fileType": "FIELD",
+      "DESCRIPTION": "Dummy Field 16",
+      "FIELDTYPE": "ALPHA",
+      "MAPNAME": "DUMMY FIELD"
+    }
+  }
+]
